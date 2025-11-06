@@ -38,14 +38,25 @@ data/
 
   
 results/
+&nbsp;&nbsp;&nbsp;&nbsp;jee/
+   - jee_pairs_o3_results.jsonl
+   - jee_pairs_gemini_results.jsonl
+   - jee_pairs_results.parquet
+   - jee_with_bt.parquet
 
 &nbsp;&nbsp;&nbsp;&nbsp;cmcqrd/
+   - cmcqrd_pairs_o3_results.jsonl
+   - cmcqrd_pairs_gemini_results.jsonl
+   - cmcqrd_pairs_resuls.parquet
    - cmcqrd_with_bt.parquet
    - cmcqrd_with_labels.parquet
    - all_bt_with_difficulty_cmcqrd_oss.parquet
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;omni/
+   - omni_pairs_o3_results.jsonl
+   - omni_pairs_gemini_results.jsonl
+   - omni_pairs_results.parquet
    - omni_with_bt.parquet
    - omni_with_labels
    - omni_with_performance.parquet
