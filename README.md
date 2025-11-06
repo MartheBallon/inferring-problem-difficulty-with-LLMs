@@ -24,28 +24,28 @@ python experiments/01_cmcqrd_create_pairs.py
 
 data/
 
-&nbsp;&nbsp;&nbsp;&nbsp; jee/
-&nbsp;&nbsp;&nbsp;&nbsp; - jee.parquet
+&nbsp;&nbsp;&nbsp;&nbsp;jee/
+- jee.parquet
 - jee_pairs.parquet
 
-cmcqrd/
+&nbsp;&nbsp;&nbsp;&nbsp;cmcqrd/
 - cmcqrd.parquet 
 - cmcqrd_pairs.parquet
   
-   omni/
+&nbsp;&nbsp;&nbsp;&nbsp;omni/
    - omni.parquet (the subset of algebra questions from Omni-Math (cleaned) that do not contain any proofs, estimations or images)
    - omni_pairs.parquet
 
   
 results/
 
-   cmcqrd/
+&nbsp;&nbsp;&nbsp;&nbsp;cmcqrd/
    - cmcqrd_with_bt.parquet
    - cmcqrd_with_labels.parquet
    - all_bt_with_difficulty_cmcqrd_oss.parquet
 
 
-   omni/
+&nbsp;&nbsp;&nbsp;&nbsp;omni/
    - omni_with_bt.parquet
    - omni_with_labels
    - omni_with_performance.parquet
