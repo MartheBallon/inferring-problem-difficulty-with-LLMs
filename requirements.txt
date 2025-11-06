@@ -1,0 +1,24 @@
+numpy>=2.3.2
+pandas>=2.3.1
+scipy>=1.16.1
+networkx>=3.5
+datasets>=4.0.0
+choix>=0.3.6
+openai>=1.97.2
+google-genai>=1.29.0
+ortools>=9.14.6206
+matplotlib>=3.10.5
+seaborn>=0.13.2
+
+
+# Versions the authors used to generate the results in the paper:
+# choix==0.4.1
+# datasets==4.0.0
+# google-genai==1.29.0
+# matplotlib==3.10.5
+# networkx==3.5
+# numpy==2.3.2
+# openai==1.99.9
+# pandas==2.3.0
+# scipy==1.16.2
+# seaborn==0.13.2
