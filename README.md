@@ -63,12 +63,10 @@ results/
    - all_bt_with_difficulty_omni_oss.parquet
    - omni_subsample_o3_correlations.parquet
    - omni_subsample_gemini_correlations.parquet
-
    - omni_o3_noise_alpha_0.01.parquet
    - omni_o3_noise_alpha_0.02.parquet
    - omni_o3_noise_alpha_0.05.parquet
    - omni_o3_noise_alpha_0.1.parquet
-
    - omni_gemini_noise_alpha_0.01.parquet
    - omni_gemini_noise_alpha_0.02.parquet
    - omni_gemini_noise_alpha_0.05.parquet
@@ -84,33 +82,25 @@ experiments/
 - 01_cmcqrd_create_pairs.py
 - 01_jee_create_pairs.py
 - 01_omni_create_pairs.py
-
 - 02_cmcqrd_batch_pairs.py
 - 02_jee_batch_pairs.py
 - 02_omni_batch_pairs.py
-
 - 03_cmcqrd_process_results.py
 - 03_jee_process_results.py
 - 03_omni_process_results.py
-
 - 04_cmcqrd_compute_bt.py
 - 04_jee_compute_bt.py
 - 04_omni_compute_bt.py
-
 - 05_omni_benchmark.py
-
 - 06_cmcqrd_label_by_llm.py
 - 06_omni_label_by_llm.py
-
 - 07_omni_add_noise_gemini.py
 - 07_omni_add_noise_o3.py
-
 - 08_omni_subsample.py
 
 src/
 - figures_main.ipynb
-- figures_appendix.ipynb
-    
+- figures_appendix.ipynb    
 - bt.py
 - pairs.py
 - prompts.py
